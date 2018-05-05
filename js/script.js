@@ -7,12 +7,12 @@ alert('Your result is ' + value);
 function getTriangleArea(a, h) {
    
 if ((a > 0) && ( h > 0)) {
-        conlole.log('Correct data');
+        console.log('Correct data');
         return a * h / 2;
     }
  
 else {
-        conlole.log('Invalid data');
+        console.log('Invalid data');
     }
 }
 
